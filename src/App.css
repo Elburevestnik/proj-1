@@ -12,6 +12,40 @@ p {
   margin: 0;
 }
 
+.font {
+  line-height: 1.5;
+}
+
+.font_size_xl {
+  font-size: 64px;
+}
+
+.font_size_l {
+  font-size: 48px;
+}
+
+.font_size_m {
+  font-size: 32px;
+}
+
+.font_size_s {
+  font-size: 24px;
+}
+
+.font_size_xs {
+  font-size: 16px;
+}
+
+.font_size_xxs {
+  font-size: 8px;
+}
+
+
+.font_size_xl {
+  font-size: 64px;
+  line-height: 1.5;
+}
+
 .font_color_green {
   color: #156963;
 }
@@ -24,8 +58,12 @@ p {
   color: #333333;
 }
 
+.font_color_light-grey {
+  color: #c3c3c3;
+}
+
 .font_color_white {
-  color: #e7e6e6;
+  color: #ffffff;
 }
 
 .margin-top {
@@ -56,7 +94,9 @@ p {
   margin-bottom: 24px;
 }
 
-.
+.svg_size_s {
+  height: 1.2em;
+}
 
 .action-button {
   border: none;
@@ -66,6 +106,14 @@ p {
   padding: .5em 2em;
 }
 
+.action-button_type_svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 1em;
+}
+
 .action-button_type_primary {
   background: #156963;
 
@@ -73,13 +121,13 @@ p {
 }
 
 .action-button_type_primary:focus {
-  background: #e7e6e6;
+  background: #ffffff;
 
   color: #156963;
 }
 
 .action-button_type_secondary {
-  background: #e7e6e6;
+  background: #ffffff;
 
   color: #156963;
 }
@@ -91,16 +139,20 @@ p {
 }
 
 .action-button_size_s {
-  min-height: 1.5em;
+  height: 2.5em;
 
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
+
+  padding: .55em 2.3em;
 }
 .action-button_size_xl {
-  min-height: 5em;
+  height: 5em;
 
-  font-size: 24px;
+  font-size: 32px;
   line-height: 1.5;
+
+  padding: 1em 1.5em;
 }
 
 .action-button_separator-right {

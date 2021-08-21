@@ -1,10 +1,10 @@
 .start-page__content {
-    min-height: 90vh;
+    min-height: 100vh;
 
     background: #61dafb;
 }
 .start-page__content-info {
-    height: 90vh;
+    height: 100vh;
 
     overflow: hidden;
 
@@ -12,12 +12,12 @@
 }
 
 .start-page__image {
-    width: 50vw;
+    width: 47.5vw;
     object-fit: cover;
 }
 
 .start-page__aside {
-    padding-top: 10vh;
+    padding-top: 25vh;
 
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
@@ -27,13 +27,21 @@
 }
 
 .start-page__aside > * {
-    margin-left: 10vw;
+    margin-left: 6vw;
 }
 
 .start-page__aside > *:not(:last-child) {
-    margin-right: 10vw;
+    margin-right: 8.5vw;
+}
+
+.start-page__aside > *:first-child {
+    margin-right: 6vw;
 }
 
 .start-page__aside-actions {
     display: flex;
+}
+
+.start-page__aside-actions > * {
+    width: 50%;
 }

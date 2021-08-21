@@ -1,14 +1,26 @@
 import React from 'react';
 
-export type SvgWrapperProps = {
+export interface IconProps {
     src: string,
-    className?: string
+    name: string,
+    alt?: string,
+    className?: string,
+    fillColor?: string,
+    strokeColor?: string,
+    widthSize?: string,
+    heightSize?: string,
 };
 
-function SvgWrapper(props: SvgWrapperProps) {
+//TODO SVGProps
+function Icon(props: IconProps) {
     return (
-        <img src={props.src}/>
+        <svg className={props.className}
+             fill={props.fillColor}
+             stroke={props.strokeColor}
+             width={props.widthSize} height={props.heightSize}>
+            <use xlinkHref={`${props.src}#${props.name}-icon`} />
+        </svg>
     );
-}
+};
 
-export default SvgWrapper;
+export default Icon;
