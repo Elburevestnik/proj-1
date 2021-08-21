@@ -1,0 +1,39 @@
+.start-page__content {
+    min-height: 90vh;
+
+    background: #61dafb;
+}
+.start-page__content-info {
+    height: 90vh;
+
+    overflow: hidden;
+
+    display: flex;
+}
+
+.start-page__image {
+    width: 50vw;
+    object-fit: cover;
+}
+
+.start-page__aside {
+    padding-top: 10vh;
+
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+
+    background: white;
+
+}
+
+.start-page__aside > * {
+    margin-left: 10vw;
+}
+
+.start-page__aside > *:not(:last-child) {
+    margin-right: 10vw;
+}
+
+.start-page__aside-actions {
+    display: flex;
+}

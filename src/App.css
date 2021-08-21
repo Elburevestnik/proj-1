@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+h1 {
+  font-size: 64px;
+  line-height: 1.5;
+
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  font-size: 16px;
+  line-height: 1.5;
+
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.font_color_green {
+  color: #156963;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.font_color_brown {
+  color: #2C1500;
 }
 
-.App-link {
-  color: #61dafb;
+.font_color_grey {
+  color: #333333;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.font_color_white {
+  color: #e7e6e6;
+}
+
+.margin-top {
+  margin-top: 0;
+}
+
+.margin-top_size_m {
+  margin-top: 24px;
+}
+
+.margin-right {
+  margin-right: 0;
+}
+.margin-right_size_m {
+  margin-right: 10vw;
+}
+.margin-left {
+  margin-left: 0;
+}
+.margin-left_size_m {
+  margin-left: 10vw;
+}
+.margin-bottom {
+  margin-bottom: 0;
+}
+
+.margin-bottom_size_m {
+  margin-bottom: 24px;
+}
+
+.
+
+.action-button {
+  border: none;
+  outline: none;
+  background: transparent;
+
+  padding: .5em 2em;
+}
+
+.action-button_type_primary {
+  background: #156963;
+
+  color: #e7e6e6;
+}
+
+.action-button_type_primary:focus {
+  background: #e7e6e6;
+
+  color: #156963;
+}
+
+.action-button_type_secondary {
+  background: #e7e6e6;
+
+  color: #156963;
+}
+
+.action-button_type_secondary:focus {
+  background: #156963;
+
+  color: #e7e6e6;
+}
+
+.action-button_size_s {
+  min-height: 1.5em;
+
+  font-size: 12px;
+  line-height: 1.5;
+}
+.action-button_size_xl {
+  min-height: 5em;
+
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.action-button_separator-right {
+  border-right: 1px solid #156963;
+}
+
+.action-button_separator-right:focus {
+  border-right: 1px solid #e7e6e6;
+}
+
+.action-button_separator-left {
+  border-left: 1px solid #e7e6e6;
+}
+
+.action-button_separator-left:active {
+  border-left: 1px solid #156963;
+}
+
+.start-page {
+  height: 100vh;
+
+  position: relative;
 }

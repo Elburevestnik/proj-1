@@ -1,0 +1,15 @@
+.start-page__header {
+    height: 50px;
+    width: 90vw;
+
+    margin: 0 5vw;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    position: absolute;
+
+    background: transparent;
+}
+
