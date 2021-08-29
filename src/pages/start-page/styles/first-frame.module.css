@@ -1,0 +1,42 @@
+.first-frame {
+    height: 100vh;
+
+    overflow: hidden;
+
+    display: flex;
+}
+
+.first-frame__image {
+    width: 47.5vw;
+    object-fit: cover;
+}
+
+.first-frame__aside {
+    padding-top: 25vh;
+
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+
+    background: white;
+
+}
+
+.first-frame__aside > * {
+    margin-left: 6vw;
+}
+
+.first-frame__aside > *:not(:last-child) {
+    margin-right: 8.5vw;
+}
+
+.first-frame__aside > *:first-child {
+    margin-right: 6vw;
+}
+
+.first-frame__aside-actions {
+    display: flex;
+}
+
+.first-frame__aside-actions > * {
+    width: 50%;
+}

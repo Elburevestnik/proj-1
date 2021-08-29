@@ -1,0 +1,35 @@
+.feature-item {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    grid-template-rows: .5fr auto;
+    grid-template-areas: "icon name"
+                         "description  description";
+    gap: 1vw;
+
+    padding: 1.2vw;
+
+    border: #c3c3c3 1px solid;
+}
+
+.feature-item__icon {
+    grid-area: icon;
+
+    width: 48px;
+    max-height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-item__name {
+    grid-area: name;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.feature-item__description {
+    grid-area: description;
+}

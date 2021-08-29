@@ -1,0 +1,19 @@
+.page-wrapper {
+    height: 100vh;
+
+    position: relative;
+}
+.content {
+    min-height: 100vh;
+}
+.content > *:not(:first-child) {
+    margin: 10vw 4.4vw 0;
+}
+
+.content > *:first-child {
+    margin-bottom: 18vh;
+}
+
+.content > *:last-child {
+    margin-bottom: 10vh;
+}

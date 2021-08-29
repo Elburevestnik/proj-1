@@ -1,0 +1,73 @@
+
+.action-button {
+    border: none;
+    outline: none;
+    background: transparent;
+
+    padding: .5em 2em;
+}
+
+.action-button_type_svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 1em;
+}
+
+.action-button_type_primary {
+    background: #156963;
+
+    color: #e7e6e6;
+}
+
+.action-button_type_primary:focus, .action-button_type_primary:hover {
+    background: #ffffff;
+
+    color: #156963;
+}
+
+.action-button_type_secondary {
+    background: #ffffff;
+
+    color: #156963;
+}
+
+.action-button_type_secondary:focus, .action-button_type_secondary:hover {
+    background: #156963;
+
+    color: #e7e6e6;
+}
+
+.action-button_size_s {
+    height: 2.5em;
+
+    font-size: 14px;
+    line-height: 1.5;
+
+    padding: .55em 2.3em;
+}
+.action-button_size_xl {
+    height: 5em;
+
+    font-size: 32px;
+    line-height: 1.5;
+
+    padding: 1em 1.5em;
+}
+
+.action-button_separator-right {
+    border-right: 1px solid #156963;
+}
+
+.action-button_separator-right:focus, .action-button_separator-right:hover {
+    border-right: 1px solid #e7e6e6;
+}
+
+.action-button_separator-left {
+    border-left: 1px solid #e7e6e6;
+}
+
+.action-button_separator-left:focus, .action-button_separator-left:hover {
+    border-left: 1px solid #156963;
+}

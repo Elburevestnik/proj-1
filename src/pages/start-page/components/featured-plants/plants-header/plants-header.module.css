@@ -1,0 +1,16 @@
+.header {
+    border-bottom: 1px #c3c3c3 solid;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: .7em 0;
+}
+
+.header__sorting {
+    background: transparent;
+    border: 1px #c3c3c3 solid;
+
+    padding: .5em;
+}

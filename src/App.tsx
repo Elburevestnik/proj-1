@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import StartPage from './pages/start-page/start-page';
+import Page from './pages/start-page/page';
 
 function App() {
-    return (<StartPage/>);
+    return (<Page/>);
 }
 
 export default App;

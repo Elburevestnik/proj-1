@@ -1,9 +1,8 @@
 import React from 'react';
-import '../../styles/footer.css'
-
+import footerStyles from '../../styles/footer.module.css'
 function Footer() {
     return (
-        <footer className="start-page__footer">
+        <footer className={footerStyles.footer}>
             footer
         </footer>
     );

@@ -1,0 +1,42 @@
+.plant-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr .35fr .35fr;
+
+    grid-template-areas: "image"
+                          "name"
+                          "price";
+
+    padding: 20px 0;
+}
+
+.plant-card__image {
+    grid-area: image;
+
+    height: 217px;
+    width: 217px;
+    object-fit: cover;
+
+    overflow: hidden;
+
+    background: #e7e6e6;
+}
+
+.plant-card__name {
+    grid-area: name;
+}
+
+.plant-card__price {
+    grid-area: price;
+}
+
+.plant-card >*:not(:first-child) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*.plant-card >*:first-child {*/
+/*    display: flex;*/
+/*    align-items: flex-start;*/
+/*    justify-content: center;*/
+/*}*/

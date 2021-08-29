@@ -1,0 +1,19 @@
+.header {
+    height: 10.3vh;
+    width: 90vw;
+
+    margin: 0 5vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    position: absolute;
+
+    background: transparent;
+}
+
+.header-actions {
+    display: flex;
+}
+
